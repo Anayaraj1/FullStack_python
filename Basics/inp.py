@@ -1,0 +1,8 @@
+employeeName=input("Enter employee Name : \n")
+employeeAge=int(input("Enter Employee Age : \t" ))
+employeeSalary=input("Enter employee salary : \n")
+print(employeeSalary)
+employeeSalary=float(employeeSalary)
+print("employee name is\n", employeeName,type(employeeName))
+print("employee age is \n", employeeAge , type(employeeAge))
+print("employee salary is \n", employeeSalary, type(employeeSalary))
