@@ -4,4 +4,5 @@ def functionalArguments(*args):
     for i in args:
         print(i)
 
+print("hellosssss")
     
