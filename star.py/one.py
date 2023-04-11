@@ -49,4 +49,14 @@
 # A A A 
 # A A 
 # A 
-  
+
+
+num=int(input("Enter The num of rows "))
+k=1
+for i in range(1,num+1):
+    for j in range(1,k+1):
+        print("A",end=" ")
+    k=k+2
+    print()
+
+
