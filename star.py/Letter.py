@@ -6,13 +6,13 @@
 #             print(end=" ")
 #     print()
 
-        #  *** 
-        # *   *
-        # *   *
-        # *****
-        # *   *
-        # *   *
-        # *   *
+#  ***
+# *   *
+# *   *
+# *****
+# *   *
+# *   *
+# *   *
 
 # for row in range(7):
 #     for col in range(5):
@@ -22,11 +22,26 @@
 #             print(end=" ")
 #     print()
 
-# **** 
+# ****
 # *   *
 # *   *
-# **** 
+# ****
 # *   *
 # *   *
-# **** 
+# ****
 
+n = int(input("Enter"))
+k = 2
+for i in range(1, n+1):
+    print("*")
+    for j in range(0, n-3):
+        # if ((j >= 0 and j <= 6) or (j >= 1 and j <= 5) or (j >= 2 and j <= 4) or (j >= 3)):
+        print("*", end="")
+print()
+
+
+#     for j in range(n+1):
+#         if ((j >= 0 and j <= 6) or (j >= 1 and j <= 5) or (j >= 2 and j <= 4) or (j >= 3)):
+#             print("*", end="")
+#         else:
+#             print(" ")

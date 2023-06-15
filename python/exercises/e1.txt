@@ -1,5 +1,5 @@
 '''
-1) write a program to take a input from the user and print the details
+1)write a program to take a input from the user and print the details
    *Employee Name
    *Employee Age
    *Employee Phone Number\

@@ -6,12 +6,12 @@
 #             print(end=" ")
 #     print()
 
-#  ^^ ^^ 
+#  ^^ ^^
 # ^  ^  ^
 # ^     ^
-#  ^   ^ 
-#   ^ ^  
-#    ^  
+#  ^   ^
+#   ^ ^
+#    ^
 
 # num=int(input("Enter the num of rows"))
 # k=1
@@ -21,12 +21,12 @@
 #     k=k+2
 #     print()
 
-# 1 
-# 1 1 1 
-# 1 1 1 1 1 
-# 1 1 1 1 1 1 1 
-# 1 1 1 1 1 1 1 1 1 
-# 1 1 1 1 1 1 1 1 1 1 1 
+# 1
+# 1 1 1
+# 1 1 1 1 1
+# 1 1 1 1 1 1 1
+# 1 1 1 1 1 1 1 1 1
+# 1 1 1 1 1 1 1 1 1 1 1
 
 
 # num=int(input("Enter the num of rows:"))
@@ -35,30 +35,30 @@
 #         print(end=" ")
 #     for j in range(0,i+1):
 #         print("^",end=" ")
-#     print()
+# print()
 
-# num=int(input("Enter the no of rows"))
-# for i in range(0,num):
-#     for j in range(0,num-i-1):
-#         print(end=" ")
-#     for j in range(0,i+1):
-#         print("^",end=" ")
-#     print()
+num = int(input("Enter the no of rows"))
+for i in range(0, num):
+    for j in range(0, num-i-1):
+        print(end=" ")
+    for j in range(0, i+1):
+        print("^", end=" ")
+    print()
 
 # Right diamond problem
-# k = 2 * n- 2  
-# for i in range(0,n):  
-#     for j in range(0, k):  
-#         print(end=" ")  
-#     k = k - 1  
-#     for j in range(0, i ):  
-#         print("*", end="")  
-#     print("")   
-# k =n- 2  
-# for i in range(n, -1, -1):  
-#     for j in range(k, 0, -1):  
-#         print(end=" ")   
-#     k = k +1 
-#     for j in range(0, i ):  
-#         print("*", end="")  
-    # print("")
+k = 2 * num - 2
+for i in range(0, num):
+    for j in range(0, k):
+        print(end=" ")
+    k = k - 1
+    for j in range(0, i):
+        print("*", end="")
+    print("")
+k = num - 2
+for i in range(num, -1, -1):
+    for j in range(k, 0, -1):
+        print(end=" ")
+    k = k + 1
+    for j in range(0, i):
+        print("*", end="")
+    print("")
